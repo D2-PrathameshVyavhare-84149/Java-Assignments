@@ -20,16 +20,16 @@ public class foodMenu {
 		do {
 		System.out.println("---- Welcome to our Food Cort ----");
 		System.out.println("What you like to eat -");
-		System.out.println("1.Idli");
-		System.out.println("2.Dosa");
-		System.out.println("3.Samosa");
-		System.out.println("4.Vada-Pav");
-		System.out.println("5.Misal-Pav");
-		System.out.println("6.Noodles");
-		System.out.println("7.Manchurian");
-		System.out.println("8.Pav-Bhaji");
-		System.out.println("9.Pani-Puri");
-		System.out.println("10.Bhel");
+		System.out.println("1.Idli (Price - Rs.20)");
+		System.out.println("2.Dosa (Price - Rs.30)");
+		System.out.println("3.Samosa (Price - Rs.20)");
+		System.out.println("4.Vada-Pav (Price - Rs.15)");
+		System.out.println("5.Misal-Pav (Price - Rs.30)");
+		System.out.println("6.Noodles (Price - Rs.50)");
+		System.out.println("7.Manchurian (Price - Rs.50)");
+		System.out.println("8.Pav-Bhaji (Price - Rs.100)");
+		System.out.println("9.Pani-Puri (Price - Rs.20)");
+		System.out.println("10.Bhel (Price - Rs.20)");
 		System.out.println("11.Generate Bill of Customer");
 		
 		
@@ -38,11 +38,11 @@ public class foodMenu {
 		
 		switch (choice) {
 		case 1:System.out.println("Enter quantity of Idli - ");
-			idli = sc.nextInt()*10;
+			idli = sc.nextInt()*20;
 			break;
 		 
 		case 2:System.out.println("Enter quantity of Dosa - ");
-			dosa = sc.nextInt()*20;
+			dosa = sc.nextInt()*30;
 			break;
 			
 		case 3:System.out.println("Enter quantity of Samosa - ");
@@ -62,7 +62,7 @@ public class foodMenu {
 			break;	
 		
 		case 7:System.out.println("Enter quantity of Manchurian - ");
-			manchurian = sc.nextInt() *15;
+			manchurian = sc.nextInt()*50;
 			break;
 		
 		case 8:System.out.println("Enter quantity of Pav bhaji - ");
